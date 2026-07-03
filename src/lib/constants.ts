@@ -197,31 +197,37 @@ export const NEXUS_SERVICES: ServiceItem[] = [
     icon: Laptop,
     title: "Manutenção de computadores",
     description: "Diagnóstico completo e manutenção preventiva ou corretiva, com peças de qualidade.",
+    image: "/images/services/manutencao.png",
   },
   {
     icon: Wrench,
     title: "Conserto de notebooks",
     description: "Reparo de placas, telas, teclados e outros componentes com garantia de serviço.",
+    image: "/images/services/notebook.png",
   },
   {
     icon: Network,
     title: "Suporte técnico",
     description: "Atendimento remoto ou presencial para resolver problemas de software e sistema.",
+    image: "/images/services/suporte.png",
   },
   {
     icon: Sparkles,
     title: "Instalação de redes",
     description: "Estruturação de redes cabeadas e Wi-Fi para casas e empresas, com foco em estabilidade.",
+    image: "/images/services/redes.png",
   },
   {
     icon: ScanLine,
     title: "Formatação e limpeza",
     description: "Sistema mais rápido e seguro, com backup dos seus arquivos garantido.",
+    image: "/images/services/formatacao.png",
   },
   {
     icon: Building2,
     title: "Atendimento para empresas",
     description: "Planos de suporte contínuo para manter a infraestrutura de TI da sua empresa sempre no ar.",
+    image: "/images/services/empresas.png",
   },
 ];
 

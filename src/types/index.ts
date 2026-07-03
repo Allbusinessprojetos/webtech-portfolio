@@ -33,4 +33,5 @@ export interface ServiceItem {
   icon: LucideIcon;
   title: string;
   description: string;
+  image: string;
 }

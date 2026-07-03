@@ -3,6 +3,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { Reveal } from "@/components/ui/reveal";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
 import { NEXUS_SERVICES } from "@/lib/constants";
+import Image from "next/image";
 
 export function NexusServices() {
   return (
@@ -15,7 +16,14 @@ export function NexusServices() {
             const Icon = service.icon;
             return (
               <Reveal key={service.title} delay={(i % 3) * 0.08}>
-                <SpotlightCard className="h-full">
+                <SpotlightCard className="h-full overflow-hidden">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    width={500}
+                    height={280}
+                    className="mb-6 h-44 w-full rounded-2xl object-cover"
+                  />
                   <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-electric/10 text-electric-soft">
                     <Icon className="h-5 w-5" />
                   </span>
