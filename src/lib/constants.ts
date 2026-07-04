@@ -30,7 +30,7 @@ import type {
 
 // --- Contato -----------------------------------------------------------
 // Atualize com o número real da WebTech (formato internacional, apenas dígitos).
-export const WHATSAPP_NUMBER = "5511999999999";
+export const WHATSAPP_NUMBER = "5511993359462";
 
 export function buildWhatsAppLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
